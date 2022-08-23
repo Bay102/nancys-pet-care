@@ -1,12 +1,11 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:760px) {
     body {
-        width: 800px;
+        width: 100%;
     }
 
     header {
         display: none;
     }
-
 
     .title {
         padding: 0;
