@@ -1,7 +1,9 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     body {
-        width: 98%;
+        margin: auto;
+        width: 90%;
         overflow-x: hidden;
+        line-height: 25px;
     }
     
     h2 { 
@@ -93,14 +95,15 @@
         }
 
         footer {
-            height: 40px;
+            flex-direction: ;
+            height: max-content;
             margin: 0;
             font-size: 15px;
             
         }
 
         .sticky {
-            margin-top: 10px;
+            flex-direction: column;
         }
 
 
