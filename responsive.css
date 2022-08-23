@@ -1,6 +1,7 @@
 @media screen and (max-width:800px) {
     body {
         width: 98%;
+        overflow-x: hidden;
     }
     
     h2 { 
