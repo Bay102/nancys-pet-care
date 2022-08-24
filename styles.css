@@ -1,9 +1,10 @@
 body {
     margin: auto;
     text-align: center;
-    background: rgb(0, 0, 0);
-    font-family: copperplate;
-    width: 80%;
+    background-color: e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 95%;
+    
   }
   
   li {
@@ -38,9 +39,9 @@ body {
 
   .about-home-text {
     height: max-content;
-    
+    width: 100%;
     margin: 20px auto;
-    padding: 20px 75px;
+    
     font-size: 25px;
     background-color: pink;
     border: 4px solid white;
@@ -51,7 +52,6 @@ body {
     height: 900px;
     display: flex;
     flex-direction: row;
-    gap: 15px;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
@@ -129,11 +129,11 @@ body {
   
   .testimonials {
     height: 450px;
-    background-color: black;
+    background-color: ;
     overflow: scroll;
   }
 
-  .review-header {
+  .section-headers {
     padding: 0;
     color: black;
     margin: 10px 0 ;
@@ -145,9 +145,17 @@ body {
 
   .reviews { 
     width: 85%;
-    border: 2px dashed black;
+    border: 2px solid black;
     border-radius: 10px;
-    
+  }
+
+  .pic-gallery {
+    height: 500px;
+  }
+
+  .pic-gallery-header {
+    height: 25px;
+    background-color: pink;
   }
   
   footer {
